@@ -258,8 +258,8 @@ ul.topnav li.icon {
 }
 
 .copyright-text {
-  font-family: "Chunkfive";
-  font-size: 20px;
+  font-family: "FrancoisOne";
+  font-size: medium;
 }
 
 .mail-input-msg {
@@ -286,7 +286,13 @@ ul.topnav li.icon {
 }
 
 .footer {
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
+  width: 100%;
+}
+
+.contact-txt td {
+  vertical-align: top;
+  padding: 5px 5px;
 }
 
 .timeline {
@@ -527,7 +533,7 @@ ul.topnav li.icon {
 .panel {
   background-color: transparent;
   -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 .timeline-panel {
@@ -537,4 +543,11 @@ ul.topnav li.icon {
 .sub-section {
   font-family: "FrancoisOne", sans-serif;
   font-size: medium;
+}
+
+.brand-img {
+  max-height: 50px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
 }
