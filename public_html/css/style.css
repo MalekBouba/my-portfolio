@@ -4,12 +4,12 @@
 */
 @font-face {
   font-family: 'Chunkfive';
-  src: url('../lib/fonts/Chunkfive.otf') ;
+  src: url('../assets/fonts/Chunkfive.otf') ;
 }
 
 @font-face {
   font-family: 'FrancoisOne';
-  src: url('../lib/fonts/FrancoisOne.ttf') ;
+  src: url('../assets/fonts/FrancoisOne.ttf') ;
 }
 
 html, body, .app-container {
