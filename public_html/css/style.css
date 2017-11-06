@@ -25,6 +25,14 @@ html, body, .app-container {
   padding: 0;
 }
 
+.container-b {
+  padding: 100px 10px 50px 10px;
+}
+
+.container-d {
+  padding: 50px 10px 50px 10px;
+}
+
 .row {
   width: 100%;
   padding: 0;
@@ -32,8 +40,7 @@ html, body, .app-container {
 
 .container-a {
   height: 100%;
-  background-image: url("../img/app-header-bg.png");
-  background-position: center;
+  background: url("../img/app-header-bg.png") center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,9 +50,7 @@ html, body, .app-container {
 
 .animatedParalax {
   height: 90%;
-  background-image: url("../img/app-header-bg-para.png");
-  background-color: #00a1a3;
-  background-position: center;
+  background: #00a1a3 url("../img/app-header-bg-para.png") center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -104,7 +109,7 @@ ul.topnav.scrolled {
 }
 
 ul.topnav.scrolled > li > a {
-  color: #006666;
+  color: #006666 !important;
 }
 
 ul.topnav li {
@@ -204,8 +209,7 @@ ul.topnav li.icon {
 
 .container-c {
   min-height: 300px;
-  background-image: url("../img/middle-bg.png");
-  background-position: center;
+  background: url("../img/middle-bg.png") center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,8 +223,7 @@ ul.topnav li.icon {
 .container-e {
   color: white;
   padding: 20px;
-  background-image: url("../img/contact-us-bg.png");
-  background-position: center;
+  background: url("../img/contact-us-bg.png") center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -229,9 +232,7 @@ ul.topnav li.icon {
 }
 
 .cercle-image {
-  border-width: 8px;
-  border-color: rgb(205, 205, 205);
-  border-style: solid;
+  border: 8px solid rgb(205, 205, 205);
   border-radius: 50%;
   background-color: rgb(0, 161, 163);
   background-image: url("../img/glasses.png"), url("../img/cartoon-me.png");
@@ -266,9 +267,7 @@ ul.topnav li.icon {
   width: 100%;
   margin: 10px;
   padding: 5px;
-  border-width: 8.5px;
-  border-color: rgb(130, 130, 130);
-  border-style: solid;
+  border: 8.5px solid rgb(130, 130, 130);
   border-radius: 10px;
   background-color: rgb(180, 180, 180);
   opacity: 0.7;
@@ -280,9 +279,7 @@ ul.topnav li.icon {
   height: 250px;
   margin: 10px;
   padding: 5px;
-  border-width: 8.5px;
-  border-color: rgb(130, 130, 130);
-  border-style: solid;
+  border: 8.5px solid rgb(130, 130, 130);
   border-radius: 10px;
   background-color: rgb(180, 180, 180);
   opacity: 0.7;
@@ -353,10 +350,9 @@ ul.topnav li.icon {
   top: 26px;
   right: -15px;
   display: inline-block;
-  border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
-  border-bottom: 15px solid transparent;
+  border: 15px solid transparent;
+  border-right: 0 #ccc;
+  border-left-color: #ccc;
   content: " ";
 }
 
@@ -365,10 +361,9 @@ ul.topnav li.icon {
   top: 27px;
   right: -14px;
   display: inline-block;
-  border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
-  border-bottom: 14px solid transparent;
+  border: 14px solid transparent;
+  border-right: 0 #fff;
+  border-left-color: #fff;
   content: " ";
 }
 
@@ -385,10 +380,7 @@ ul.topnav li.icon {
   margin-left: -25px;
   background-color: #999999;
   z-index: 100;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-radius: 50%;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel {
@@ -540,4 +532,9 @@ ul.topnav li.icon {
 
 .timeline-panel {
   background-color: white;
+}
+
+.sub-section {
+  font-family: "FrancoisOne", sans-serif;
+  font-size: medium;
 }
